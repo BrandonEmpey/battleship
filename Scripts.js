@@ -117,10 +117,7 @@ function placeDestroyer ()
 			clicks++;
 		}
 
-
 		var destroyer = new Destroyer(3, 3, 3, position1, position2, position3, finalPosition);
-
-		console.log(finalPosition);
 	});
 }
 
@@ -146,7 +143,7 @@ function placeCarrier ()
 			clicks++;
 		}
 
-		var cruiser = new Carrier(5, 5, 2, position1, position2, position3, position4, position5, finalPosition);
+		var carrier = new Carrier(5, 5, 2, position1, position2, position3, position4, position5, finalPosition);
 
 		console.log(finalPosition);
 	});
@@ -176,26 +173,6 @@ function Carrier(health, length, speed, position1, position2, position3, positio
 	this.health = 5;
 	this.speed = 2;
 }
-
-function fireTorpedo()
-{
-	$(".grid").click (function ()
-	{
-		if ($(this).css("background-color") === "red")
-		{
-			function inflictDamage()
-			{
-			//	destroyer.health = destroyer.health - 1;
-				console.log("Hello");
-			}
-		}
-
-
-	});
-
-
-}
-
 
 
 

@@ -28,7 +28,7 @@
     background-color: steelblue;
 }
 
-#destroyer
+#destroyer_btn
 {
     background-color: red;
     border-radius: 5px;
@@ -36,14 +36,14 @@
 
 }
 
-#cruiser
+#cruiser_btn
 {
     background-color: lightskyblue;
     border-radius: 5px;
     width: 75px;
 }
 
-#carrier
+#carrier_btn
 {
     background-color: green;
     border-radius: 5px;
