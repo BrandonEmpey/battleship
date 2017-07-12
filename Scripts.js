@@ -3,6 +3,7 @@
  */
 
 
+
 function createGrid(x)
 {
 	var matrix = [];
@@ -13,8 +14,8 @@ function createGrid(x)
 			$("#container").append("<div class='grid'></div>");
 		}
 	}
-	$(".grid").width(960/x);
-	$(".grid").height(960/x);
+	$(".grid").width(960 / x);
+	$(".grid").height(960 / x);
 
 	for (var i = 0; i < rows; i++)
 	{
@@ -40,7 +41,7 @@ function clearGrid()
 
 function refreshGrid()
 {
-	var z = prompt("How large od a battlefield?");
+	var z = prompt("How large of a battlefield?");
 	clearGrid();
 	createGrid(z);
 }
@@ -90,10 +91,11 @@ function placeCruiser ()
 			clicks++;
 		}
 
-
-		var cruiser = new Cruiser(2, 2, 4, position1, position2, finalPosition);
+		var cruiser = new Cruiser(position1, position2, finalPosition);
 
 		console.log(finalPosition);
+		console.log(cruiser.health);
+
 	});
 }
 
@@ -149,7 +151,7 @@ function placeCarrier ()
 	});
 }
 
-function Cruiser(health, length, speed, position1, position2, finalPosition)
+function Cruiser(position1, position2, finalPosition)
 {
 	this.health = 2;
 	this.length = 2;
@@ -175,7 +177,66 @@ function Carrier(health, length, speed, position1, position2, position3, positio
 }
 
 
+function aiFireTorpedo()
+{
+	var random = Math.floor(Math.random()*35);
+	var conversion = $(".grid").eq(random);
+}
 
+function fireTorpedo()
+{
+	$(".grid").click(function ()
+	{
+
+		for(var i = 0; 1 < 6; i++)
+		{
+			if(i === 2 && $(this).css("background-color" === "lightskyblue"))
+			{
+				alert("This cruiser has been sunk!");
+				return;
+			}
+
+			if(i === 3 && $(this).css("background-color" === "red"))
+			{
+				alert("This destroyer has been sunk!");
+				return;
+			}
+
+
+			if(i === 5 && $(this).css("background-color" === "green"))
+			{
+				alert("This carrier has been sunk!");
+				return;
+			}
+
+		}
+
+	});
+}
+
+$(".grid").click(function destroyerDamage ()
+{
+	if($(this).css("background-color" === "red"))
+	{
+
+	}
+});
+
+function cruiserDamage (cruiser, target)
+{
+	if(target === $(".grid").css("background-color", "lightskyblue") )
+	{
+		cruiser.health = cruiser.health - 1;
+	}
+}
+
+function carrierDamage (carrier, target)
+{
+	if(target === $(".grid").css("background-color", "green") )
+	{
+		carrier.health = carrier.health - 1;
+	}
+}
 
 
 

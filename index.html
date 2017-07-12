@@ -7,13 +7,15 @@
     <link rel="stylesheet" type="text/css" href="Styles.css">
     <script type="text/javascript" rel="script" src=Scripts.js></script>
 </head>
-<body ondblclick="fireTorpedo()">
+<body>
 
 
-<button class="newGrid">New Board</button>
-<button id="cruiser_btn" onclick="placeCruiser()">New Cruiser</button>
-<button id="destroyer_btn" onclick="placeDestroyer()">New Destroyer</button>
-<button id="carrier_btn" onclick="placeCarrier()">New Carrier</button>
+<button id="newGrid">New Board</button>
+<button onclick="fireTorpedo()"> Fire Torpedo!</button>
+<img src="Images/Cruiser.jpg" id="cruiser_btn" onclick="placeCruiser()">New Cruiser
+<img src="Images/destroyer.jpg" id="destroyer_btn" onclick="placeDestroyer()">New Destroyer
+<img src="Images/Carrier.jpg" id="carrier_btn" onclick="placeCarrier()">New Carrier
+
 
 <div id="container"></div>
 
