@@ -1,0 +1,51 @@
+
+
+
+#container
+{
+    position: relative;
+    top: 30px;
+    outline:2px solid #000;
+    font-size: 0;
+    margin:auto;
+    height: 1100px;
+    width: 960px;
+    padding: 0;
+    border: none;
+    border-color: blue;
+}
+
+.grid
+{
+    margin:0;
+    padding:0;
+    border:1px black solid;
+    display:inline-block;
+}
+
+.button
+{
+    background-color: steelblue;
+}
+
+#destroyer
+{
+    background-color: red;
+    border-radius: 5px;
+    width: 75px;
+
+}
+
+#cruiser
+{
+    background-color: lightskyblue;
+    border-radius: 5px;
+    width: 75px;
+}
+
+#carrier
+{
+    background-color: green;
+    border-radius: 5px;
+    width: 75px;
+}
