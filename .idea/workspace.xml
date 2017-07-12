@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec2f9109-786f-449c-82e3-80720e78ae6f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/brandonempey.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/brandonempey.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scripts.js" afterPath="$PROJECT_DIR$/Scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles.css" afterPath="$PROJECT_DIR$/Styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="299">
+              <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -30,23 +34,27 @@
       <file leaf-file-name="Scripts.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="181" column="0" lean-forward="true" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+            <state relative-caret-position="404">
+              <caret line="197" column="0" lean-forward="true" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc;n#createGrid#0" expanded="false" />
                 <element signature="n#!!block;n#createGrid#0" expanded="false" />
                 <element signature="n#!!block;n#clearGrid#0" expanded="false" />
                 <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-                <element signature="e#696#1084#0" expanded="false" />
-                <element signature="e#716#808#0" expanded="false" />
-                <element signature="e#810#940#0" expanded="false" />
-                <element signature="e#973#1080#0" expanded="false" />
+                <element signature="e#701#1089#0" expanded="false" />
+                <element signature="e#721#813#0" expanded="false" />
+                <element signature="e#815#945#0" expanded="false" />
+                <element signature="e#978#1085#0" expanded="false" />
                 <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
                 <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
                 <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
                 <element signature="n#!!block;n#Cruiser#0" expanded="false" />
                 <element signature="n#!!block;n#Destroyer#0" expanded="false" />
                 <element signature="n#!!block;n#Carrier#0" expanded="false" />
+                <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+                <element signature="e#3918#3975#0" expanded="false" />
+                <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+                <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -55,8 +63,8 @@
       <file leaf-file-name="Styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="45" column="12" lean-forward="false" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+            <state relative-caret-position="1311">
+              <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -92,8 +100,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Scripts.js" />
       </list>
     </option>
@@ -105,8 +113,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="23" />
+    <option name="x" value="92" />
+    <option name="y" value="22" />
     <option name="width" value="1607" />
     <option name="height" value="970" />
   </component>
@@ -135,6 +143,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Battleship" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Battleship" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Battleship" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,7 +290,7 @@
       <workItem from="1499755575668" duration="2451000" />
       <workItem from="1499765649550" duration="17586000" />
       <workItem from="1499796488362" duration="610000" />
-      <workItem from="1499842446415" duration="5525000" />
+      <workItem from="1499842446415" duration="21813000" />
     </task>
     <task id="LOCAL-00001" summary="Some functions seem unreachable from the console and I do not know why.">
       <created>1499855721285</created>
@@ -277,19 +299,27 @@
       <option name="project" value="LOCAL" />
       <updated>1499855721285</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Some functions seem unreachable from the console and I do not know why.">
+      <created>1499856080434</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1499856080434</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73184000" />
+    <option name="totallyTimeSpent" value="89472000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="23" width="1607" height="970" extended-state="0" />
+    <frame x="92" y="22" width="1607" height="970" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09836066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.281909" sideWeight="0.49968886" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15831435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15831435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.50031114" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972253" sideWeight="0.49782202" order="7" side_tool="false" content_ui="tabs" />
@@ -342,7 +372,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -372,16 +402,20 @@
             <element signature="n#!!block;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#696#1084#0" expanded="false" />
-            <element signature="e#716#808#0" expanded="false" />
-            <element signature="e#810#940#0" expanded="false" />
-            <element signature="e#973#1080#0" expanded="false" />
+            <element signature="e#701#1089#0" expanded="false" />
+            <element signature="e#721#813#0" expanded="false" />
+            <element signature="e#815#945#0" expanded="false" />
+            <element signature="e#978#1085#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
             <element signature="n#!!block;n#Cruiser#0" expanded="false" />
             <element signature="n#!!block;n#Destroyer#0" expanded="false" />
             <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+            <element signature="e#3918#3975#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -411,16 +445,20 @@
             <element signature="n#!!block;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#696#1084#0" expanded="false" />
-            <element signature="e#716#808#0" expanded="false" />
-            <element signature="e#810#940#0" expanded="false" />
-            <element signature="e#973#1080#0" expanded="false" />
+            <element signature="e#701#1089#0" expanded="false" />
+            <element signature="e#721#813#0" expanded="false" />
+            <element signature="e#815#945#0" expanded="false" />
+            <element signature="e#978#1085#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
             <element signature="n#!!block;n#Cruiser#0" expanded="false" />
             <element signature="n#!!block;n#Destroyer#0" expanded="false" />
             <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+            <element signature="e#3918#3975#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -450,16 +488,20 @@
             <element signature="n#!!block;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#696#1084#0" expanded="false" />
-            <element signature="e#716#808#0" expanded="false" />
-            <element signature="e#810#940#0" expanded="false" />
-            <element signature="e#973#1080#0" expanded="false" />
+            <element signature="e#701#1089#0" expanded="false" />
+            <element signature="e#721#813#0" expanded="false" />
+            <element signature="e#815#945#0" expanded="false" />
+            <element signature="e#978#1085#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
             <element signature="n#!!block;n#Cruiser#0" expanded="false" />
             <element signature="n#!!block;n#Destroyer#0" expanded="false" />
             <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+            <element signature="e#3918#3975#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -489,16 +531,20 @@
             <element signature="n#!!block;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#696#1084#0" expanded="false" />
-            <element signature="e#716#808#0" expanded="false" />
-            <element signature="e#810#940#0" expanded="false" />
-            <element signature="e#973#1080#0" expanded="false" />
+            <element signature="e#701#1089#0" expanded="false" />
+            <element signature="e#721#813#0" expanded="false" />
+            <element signature="e#815#945#0" expanded="false" />
+            <element signature="e#978#1085#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
             <element signature="n#!!block;n#Cruiser#0" expanded="false" />
             <element signature="n#!!block;n#Destroyer#0" expanded="false" />
             <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+            <element signature="e#3918#3975#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -528,16 +574,20 @@
             <element signature="n#!!block;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#696#1084#0" expanded="false" />
-            <element signature="e#716#808#0" expanded="false" />
-            <element signature="e#810#940#0" expanded="false" />
-            <element signature="e#973#1080#0" expanded="false" />
+            <element signature="e#701#1089#0" expanded="false" />
+            <element signature="e#721#813#0" expanded="false" />
+            <element signature="e#815#945#0" expanded="false" />
+            <element signature="e#978#1085#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
             <element signature="n#!!block;n#Cruiser#0" expanded="false" />
             <element signature="n#!!block;n#Destroyer#0" expanded="false" />
             <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+            <element signature="e#3918#3975#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -567,16 +617,20 @@
             <element signature="n#!!block;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#696#1084#0" expanded="false" />
-            <element signature="e#716#808#0" expanded="false" />
-            <element signature="e#810#940#0" expanded="false" />
-            <element signature="e#973#1080#0" expanded="false" />
+            <element signature="e#701#1089#0" expanded="false" />
+            <element signature="e#721#813#0" expanded="false" />
+            <element signature="e#815#945#0" expanded="false" />
+            <element signature="e#978#1085#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
             <element signature="n#!!block;n#Cruiser#0" expanded="false" />
             <element signature="n#!!block;n#Destroyer#0" expanded="false" />
             <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+            <element signature="e#3918#3975#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -598,16 +652,20 @@
             <element signature="n#!!block;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#696#1084#0" expanded="false" />
-            <element signature="e#716#808#0" expanded="false" />
-            <element signature="e#810#940#0" expanded="false" />
-            <element signature="e#973#1080#0" expanded="false" />
+            <element signature="e#701#1089#0" expanded="false" />
+            <element signature="e#721#813#0" expanded="false" />
+            <element signature="e#815#945#0" expanded="false" />
+            <element signature="e#978#1085#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
             <element signature="n#!!block;n#Cruiser#0" expanded="false" />
             <element signature="n#!!block;n#Destroyer#0" expanded="false" />
             <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+            <element signature="e#3918#3975#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -629,16 +687,20 @@
             <element signature="n#!!block;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#696#1084#0" expanded="false" />
-            <element signature="e#716#808#0" expanded="false" />
-            <element signature="e#810#940#0" expanded="false" />
-            <element signature="e#973#1080#0" expanded="false" />
+            <element signature="e#701#1089#0" expanded="false" />
+            <element signature="e#721#813#0" expanded="false" />
+            <element signature="e#815#945#0" expanded="false" />
+            <element signature="e#978#1085#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
             <element signature="n#!!block;n#Cruiser#0" expanded="false" />
             <element signature="n#!!block;n#Destroyer#0" expanded="false" />
             <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+            <element signature="e#3918#3975#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -660,16 +722,20 @@
             <element signature="n#!!block;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#696#1084#0" expanded="false" />
-            <element signature="e#716#808#0" expanded="false" />
-            <element signature="e#810#940#0" expanded="false" />
-            <element signature="e#973#1080#0" expanded="false" />
+            <element signature="e#701#1089#0" expanded="false" />
+            <element signature="e#721#813#0" expanded="false" />
+            <element signature="e#815#945#0" expanded="false" />
+            <element signature="e#978#1085#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
             <element signature="n#!!block;n#Cruiser#0" expanded="false" />
             <element signature="n#!!block;n#Destroyer#0" expanded="false" />
             <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+            <element signature="e#3918#3975#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -698,16 +764,20 @@
             <element signature="n#!!block;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#696#1084#0" expanded="false" />
-            <element signature="e#716#808#0" expanded="false" />
-            <element signature="e#810#940#0" expanded="false" />
-            <element signature="e#973#1080#0" expanded="false" />
+            <element signature="e#701#1089#0" expanded="false" />
+            <element signature="e#721#813#0" expanded="false" />
+            <element signature="e#815#945#0" expanded="false" />
+            <element signature="e#978#1085#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
             <element signature="n#!!block;n#Cruiser#0" expanded="false" />
             <element signature="n#!!block;n#Destroyer#0" expanded="false" />
             <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+            <element signature="e#3918#3975#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -736,16 +806,20 @@
             <element signature="n#!!block;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#696#1084#0" expanded="false" />
-            <element signature="e#716#808#0" expanded="false" />
-            <element signature="e#810#940#0" expanded="false" />
-            <element signature="e#973#1080#0" expanded="false" />
+            <element signature="e#701#1089#0" expanded="false" />
+            <element signature="e#721#813#0" expanded="false" />
+            <element signature="e#815#945#0" expanded="false" />
+            <element signature="e#978#1085#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
             <element signature="n#!!block;n#Cruiser#0" expanded="false" />
             <element signature="n#!!block;n#Destroyer#0" expanded="false" />
             <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+            <element signature="e#3918#3975#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -774,16 +848,20 @@
             <element signature="n#!!block;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#696#1084#0" expanded="false" />
-            <element signature="e#716#808#0" expanded="false" />
-            <element signature="e#810#940#0" expanded="false" />
-            <element signature="e#973#1080#0" expanded="false" />
+            <element signature="e#701#1089#0" expanded="false" />
+            <element signature="e#721#813#0" expanded="false" />
+            <element signature="e#815#945#0" expanded="false" />
+            <element signature="e#978#1085#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
             <element signature="n#!!block;n#Cruiser#0" expanded="false" />
             <element signature="n#!!block;n#Destroyer#0" expanded="false" />
             <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+            <element signature="e#3918#3975#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -812,16 +890,20 @@
             <element signature="n#!!block;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#696#1084#0" expanded="false" />
-            <element signature="e#716#808#0" expanded="false" />
-            <element signature="e#810#940#0" expanded="false" />
-            <element signature="e#973#1080#0" expanded="false" />
+            <element signature="e#701#1089#0" expanded="false" />
+            <element signature="e#721#813#0" expanded="false" />
+            <element signature="e#815#945#0" expanded="false" />
+            <element signature="e#978#1085#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
             <element signature="n#!!block;n#Cruiser#0" expanded="false" />
             <element signature="n#!!block;n#Destroyer#0" expanded="false" />
             <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+            <element signature="e#3918#3975#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -850,55 +932,63 @@
             <element signature="n#!!block;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#696#1084#0" expanded="false" />
-            <element signature="e#716#808#0" expanded="false" />
-            <element signature="e#810#940#0" expanded="false" />
-            <element signature="e#973#1080#0" expanded="false" />
+            <element signature="e#701#1089#0" expanded="false" />
+            <element signature="e#721#813#0" expanded="false" />
+            <element signature="e#815#945#0" expanded="false" />
+            <element signature="e#978#1085#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
             <element signature="n#!!block;n#Cruiser#0" expanded="false" />
             <element signature="n#!!block;n#Destroyer#0" expanded="false" />
             <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+            <element signature="e#3918#3975#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="45" column="12" lean-forward="false" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="299">
+          <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="181" column="0" lean-forward="true" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+        <state relative-caret-position="404">
+          <caret line="197" column="0" lean-forward="true" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#696#1084#0" expanded="false" />
-            <element signature="e#716#808#0" expanded="false" />
-            <element signature="e#810#940#0" expanded="false" />
-            <element signature="e#973#1080#0" expanded="false" />
+            <element signature="e#701#1089#0" expanded="false" />
+            <element signature="e#721#813#0" expanded="false" />
+            <element signature="e#815#945#0" expanded="false" />
+            <element signature="e#978#1085#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
             <element signature="n#!!block;n#Cruiser#0" expanded="false" />
             <element signature="n#!!block;n#Destroyer#0" expanded="false" />
             <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#aiFireTorpedo#0" expanded="false" />
+            <element signature="e#3918#3975#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
           </folding>
         </state>
       </provider>
