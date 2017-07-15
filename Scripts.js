@@ -2,8 +2,6 @@
  * Created by brandonempey on 7/7/17.
  */
 
-
-
 function createGrid(x)
 {
 	var matrix = [];
@@ -29,9 +27,7 @@ function createGrid(x)
 			matrix[j].push(null);
 		}
 	}
-
 	console.log(matrix);
-
 }
 
 function clearGrid()
@@ -69,12 +65,11 @@ $(".newGrid").click(function()
 		{
 			$(this).css("background-color", "black");
 		});
-	});
+});
 });
 
-function placeCruiser ()
+function placeCruiser (matrix)
 {
-
 	var clicks = 0;
 
 	alert('Select the position of your Cruiser (2 tiles in a straight line)');
@@ -88,13 +83,13 @@ function placeCruiser ()
 		if(clicks < 2)
 		{
 			$(this).css("background-color", "lightskyblue");
+			$(this).addClass("lightskyblue");
 			clicks++;
 		}
 
 		var cruiser = new Cruiser(position1, position2, finalPosition);
 
-		console.log(finalPosition);
-		console.log(cruiser.health);
+
 
 	});
 }
@@ -116,6 +111,7 @@ function placeDestroyer ()
 		if(clicks < 3)
 		{
 			$(this).css("background-color", "red");
+			$(this).addClass("red");
 			clicks++;
 		}
 
@@ -125,7 +121,6 @@ function placeDestroyer ()
 
 function placeCarrier ()
 {
-
 	var clicks = 0;
 
 	alert('Select the position of your Carrier (5 tiles in a straight line)');
@@ -142,6 +137,7 @@ function placeCarrier ()
 		if(clicks < 5)
 		{
 			$(this).css("background-color", "green");
+			$(this).addClass("green");
 			clicks++;
 		}
 
@@ -179,48 +175,29 @@ function Carrier(health, length, speed, position1, position2, position3, positio
 
 function aiFireTorpedo()
 {
-	var random = Math.floor(Math.random()*35);
+	var random = Math.floor(Math.random()*1225);
 	var conversion = $(".grid").eq(random);
-}
 
-function fireTorpedo()
-{
-	$(".grid").click(function ()
+	console.log(random);
+	console.log(conversion);
+
+	$(".grid").eq(random).css("background-color", "black");
+
+	if ($(conversion).hasClass("red"))
 	{
-
-		for(var i = 0; 1 < 6; i++)
-		{
-			if(i === 2 && $(this).css("background-color" === "lightskyblue"))
-			{
-				alert("This cruiser has been sunk!");
-				return;
-			}
-
-			if(i === 3 && $(this).css("background-color" === "red"))
-			{
-				alert("This destroyer has been sunk!");
-				return;
-			}
-
-
-			if(i === 5 && $(this).css("background-color" === "green"))
-			{
-				alert("This carrier has been sunk!");
-				return;
-			}
-
-		}
-
-	});
-}
-
-$(".grid").click(function destroyerDamage ()
-{
-	if($(this).css("background-color" === "red"))
-	{
-
+		alert("The destroyer has been damaged");
 	}
-});
+
+	if ($(conversion).hasClass("green"))
+	{
+		alert("The carrier has been damaged");
+	}
+
+	if ($(conversion).hasClass("lightskyblue"))
+	{
+		alert("The cruiser has been damaged");
+	}
+}
 
 function cruiserDamage (cruiser, target)
 {
