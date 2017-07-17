@@ -6,11 +6,12 @@
     <script src=https://code.jquery.com/jquery-3.2.1.min.js integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="Styles.css">
     <script type="text/javascript" rel="script" src=Scripts.js></script>
+    <!--<script type="text/javascript" rel="script" src=aiScript.js></script>-->
 </head>
 <body>
 
 
-<button id="newGrid">New Board</button>
+<button id="newGrid" onclick="refreshGrid()">New Board</button>
 <button onclick="aiFireTorpedo()"> Fire Torpedo!</button>
 <img src="Images/Cruiser.jpg" id="cruiser_btn" onclick="placeCruiser()">New Cruiser
 <img src="Images/destroyer.jpg" id="destroyer_btn" onclick="placeDestroyer()">New Destroyer
@@ -18,7 +19,7 @@
 
 
 <div id="container"></div>
-<div id="aicontainer"></div>
+<div id="aiContainer"></div>
 
 <br><br>
 

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec2f9109-786f-449c-82e3-80720e78ae6f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aiScript.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scripts.js" afterPath="$PROJECT_DIR$/Scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles.css" afterPath="$PROJECT_DIR$/Styles.css" />
@@ -20,28 +21,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="184">
+              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Scripts.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Scripts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="198" column="5" lean-forward="false" selection-start-line="198" selection-start-column="5" selection-end-line="198" selection-end-column="5" />
+            <state relative-caret-position="299">
+              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
                 <element signature="n#!!doc;n#createGrid#0" expanded="false" />
                 <element signature="n#!!block;n#clearGrid#0" expanded="false" />
                 <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-                <element signature="e#697#1084#0" expanded="false" />
-                <element signature="e#717#809#0" expanded="false" />
-                <element signature="e#811#941#0" expanded="false" />
+                <element signature="e#697#859#0" expanded="false" />
+                <element signature="e#749#855#0" expanded="false" />
                 <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
                 <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
                 <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -55,11 +55,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="aiScript.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aiScript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <folding>
+                <element signature="n#!!doc;n#createGrid#0" expanded="false" />
+                <element signature="e#761#867#0" expanded="false" />
+                <marker date="1500212457000" expanded="false" signature="908:1348" ph="{...}" />
+                <marker date="1500212457000" expanded="false" signature="1377:1866" ph="{...}" />
+                <marker date="1500212457000" expanded="false" signature="1893:2518" ph="{...}" />
+                <marker date="1500212457000" expanded="false" signature="2574:2630" ph="{...}" />
+                <marker date="1500212457000" expanded="false" signature="2722:2916" ph="{...}" />
+                <marker date="1500212457000" expanded="false" signature="3028:3084" ph="{...}" />
+                <marker date="1500212457000" expanded="false" signature="3112:3574" ph="{...}" />
+                <marker date="1500212457000" expanded="false" signature="3617:3733" ph="{...}" />
+                <marker date="1500212457000" expanded="false" signature="3776:3885" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="1702">
+              <caret line="74" column="32" lean-forward="false" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -79,6 +101,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>nbCols</find>
+      <find>container</find>
       <find>grid</find>
     </findStrings>
     <replaceStrings>
@@ -96,9 +119,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Scripts.js" />
+        <option value="$PROJECT_DIR$/aiScript.js" />
         <option value="$PROJECT_DIR$/Styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/Scripts.js" />
       </list>
     </option>
   </component>
@@ -113,6 +137,25 @@
     <option name="y" value="22" />
     <option name="width" value="1607" />
     <option name="height" value="970" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -130,6 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -143,33 +187,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Battleship" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Battleship" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="usage.statistics" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.1.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="jsx.switch.disabled" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -289,7 +319,9 @@
       <workItem from="1499842446415" duration="21813000" />
       <workItem from="1499939917832" duration="13238000" />
       <workItem from="1500024191236" duration="9597000" />
-      <workItem from="1500114304521" duration="2524000" />
+      <workItem from="1500114304521" duration="3322000" />
+      <workItem from="1500203390819" duration="9291000" />
+      <workItem from="1500274819641" duration="133000" />
     </task>
     <task id="LOCAL-00001" summary="Some functions seem unreachable from the console and I do not know why.">
       <created>1499855721285</created>
@@ -305,11 +337,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499856080434</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Torpedo function finished. 1 player finished. To take it further I need to add another player capability.">
+      <created>1500117408200</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1500117408200</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114831000" />
+    <option name="totallyTimeSpent" value="125053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="73" y="22" width="1607" height="970" extended-state="0" />
@@ -318,18 +357,18 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09836066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.281909" sideWeight="0.49968886" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15831435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.50031114" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15831435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972253" sideWeight="0.49782202" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -367,23 +406,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Some functions seem unreachable from the console and I do not know why." />
-    <option name="LAST_COMMIT_MESSAGE" value="Some functions seem unreachable from the console and I do not know why." />
+    <MESSAGE value="Torpedo function finished. 1 player finished. To take it further I need to add another player capability." />
+    <option name="LAST_COMMIT_MESSAGE" value="Torpedo function finished. 1 player finished. To take it further I need to add another player capability." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="27" />
+      <option name="time" value="31" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
@@ -400,9 +432,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -439,9 +470,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -478,9 +508,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -517,9 +546,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -556,9 +584,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -595,9 +622,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -634,9 +660,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -673,9 +698,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -712,9 +736,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -743,9 +766,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -774,9 +796,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -805,9 +826,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -843,9 +863,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -881,9 +900,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -919,9 +937,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -957,9 +974,8 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -995,9 +1011,30 @@
             <element signature="n#!!doc;n#createGrid#0" expanded="false" />
             <element signature="n#!!block;n#clearGrid#0" expanded="false" />
             <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
+            <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
+            <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
+            <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
+            <element signature="n#!!block;n#Cruiser#0" expanded="false" />
+            <element signature="n#!!block;n#Destroyer#0" expanded="false" />
+            <element signature="n#!!block;n#Carrier#0" expanded="false" />
+            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
+            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc;n#createGrid#0" expanded="false" />
+            <element signature="n#!!block;n#clearGrid#0" expanded="false" />
+            <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
+            <element signature="e#697#859#0" expanded="false" />
+            <element signature="e#749#855#0" expanded="false" />
             <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
             <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
             <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
@@ -1012,40 +1049,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="1702">
+          <caret line="74" column="32" lean-forward="false" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aiScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc;n#createGrid#0" expanded="false" />
+            <element signature="e#761#867#0" expanded="false" />
+            <marker date="1500212457000" expanded="false" signature="908:1348" ph="{...}" />
+            <marker date="1500212457000" expanded="false" signature="1377:1866" ph="{...}" />
+            <marker date="1500212457000" expanded="false" signature="1893:2518" ph="{...}" />
+            <marker date="1500212457000" expanded="false" signature="2574:2630" ph="{...}" />
+            <marker date="1500212457000" expanded="false" signature="2722:2916" ph="{...}" />
+            <marker date="1500212457000" expanded="false" signature="3028:3084" ph="{...}" />
+            <marker date="1500212457000" expanded="false" signature="3112:3574" ph="{...}" />
+            <marker date="1500212457000" expanded="false" signature="3617:3733" ph="{...}" />
+            <marker date="1500212457000" expanded="false" signature="3776:3885" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="184">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="198" column="5" lean-forward="false" selection-start-line="198" selection-start-column="5" selection-end-line="198" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc;n#createGrid#0" expanded="false" />
-            <element signature="n#!!block;n#clearGrid#0" expanded="false" />
-            <element signature="n#!!block;n#refreshGrid#0" expanded="false" />
-            <element signature="e#697#1084#0" expanded="false" />
-            <element signature="e#717#809#0" expanded="false" />
-            <element signature="e#811#941#0" expanded="false" />
-            <element signature="n#!!block;n#placeCruiser#0" expanded="false" />
-            <element signature="n#!!block;n#placeDestroyer#0" expanded="false" />
-            <element signature="n#!!block;n#placeCarrier#0" expanded="false" />
-            <element signature="n#!!block;n#Cruiser#0" expanded="false" />
-            <element signature="n#!!block;n#Destroyer#0" expanded="false" />
-            <element signature="n#!!block;n#Carrier#0" expanded="false" />
-            <element signature="n#!!block;n#cruiserDamage#0" expanded="false" />
-            <element signature="n#!!block;n#carrierDamage#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

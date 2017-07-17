@@ -9,11 +9,11 @@ function createGrid(x)
 	{
 		for (var columns = 0; columns < x; columns++)
 		{
-			$("#container").append("<div class='grid'></div>");
+			$("#aiContainer").append("<div class='aiGrid'></div>");
 		}
 	}
-	$(".grid").width(960 / x);
-	$(".grid").height(960 / x);
+	$(".aiGrid").width(960 / x);
+	$(".aiGrid").height(960 / x);
 
 	for (var i = 0; i < rows; i++)
 	{
@@ -32,7 +32,7 @@ function createGrid(x)
 
 function clearGrid()
 {
-	$(".grid").remove();
+	$(".aiGrid").remove();
 }
 
 function refreshGrid()
@@ -44,20 +44,18 @@ function refreshGrid()
 
 $(document).ready(function()
 {
-	createGrid(30);
+	createGrid( 30);
 
-
-$(".newGrid").click(function()
-{
+	$(".newGrid").click(function()
+	{
 		refreshGrid();
-
 		$(".grid").click(function()
 		{
 			$(this).css("background-color", "black");
 		});
+	});
 });
-});
-
+/*
 function placeCruiser (matrix)
 {
 	var clicks = 0;
@@ -203,7 +201,7 @@ function carrierDamage (carrier, target)
 	{
 		carrier.health = carrier.health - 1;
 	}
-}
+}*/
 
 
 

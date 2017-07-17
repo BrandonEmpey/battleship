@@ -1,6 +1,4 @@
 
-
-
 #container
 {
     display: flex;
@@ -13,6 +11,20 @@
     border: none;
     border-color: blue;
     margin-top: -550px;
+    overflow: hidden;
+}
+
+#aicontainer
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    outline:2px solid red;
+    margin:auto;
+    height: 1100px;
+    width: 960px;
+    border: none;
+    border-color: blue;
     overflow: hidden;
 }
 
